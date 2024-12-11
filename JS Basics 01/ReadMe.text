@@ -1,0 +1,88 @@
+BASICS OF JAVASCRIPT
+
+Understanding the fundamentals thoroughly will give you a solid foundation for mastering the language and building more complex applications. We will cover:
+
+1. Variables and Data Types:
+1.1 Variables and Declaring Variables
+In JavaScript, you declare variables using let, const, or var.
+
+a. let: Can be reassigned.
+b. const: Cannot be reassigned, and must be initialized at the time of declaration.
+c. var: An older way to declare variables, which has different scoping rules compared to let and const. Avoid using var for new code.
+
+
+1.2 Data Types:
+JavaScript has several built-in data types:
+
+a. Primitive types:
+     String: "hello", 'world'
+     Number: 123, 3.14
+     Boolean: true, false
+     Null: Represents a deliberate non-value. let x = null;
+     Undefined: A variable that has been declared but not initialized has the value undefined.
+     Symbol: A unique identifier, introduced in ES6.
+     BigInt: A large integer type introduced in ES2020.
+
+b. Non-primitive types: also called reference types
+     Object: {}, arrays, functions, dates (Technically an Object, but often treated separately), regular expression (RegEx) (Also an Object).
+
+2. Operators:
+JavaScript has several types of operators that allow you to perform operations on variables or values:
+
+    1. Arithmetic Operators
+    2. Assignment Operators
+    3. Comparison Operators
+    4. Logical Operators
+
+3. Conditional Statements: (if, else, if else, switch)
+Conditional statements allow your program to make decisions based on specific conditions.
+
+switch Statement
+    The switch statement is used to perform different actions based on different conditions. It’s often more readable than using multiple if-else statements when there are many conditions.
+
+4. Loops:
+Loops are used to repeat a block of code multiple times.
+
+    1. for loop:
+    The for loop is used when you know how many times you need to execute a statement.
+
+    2. while loop:
+    The while loop is used when you want to repeat a block of code as long as a condition is true.
+
+    3. do...while loop:
+    The do...while loop executes the block of code once before checking the condition.
+
+    4. for of loop:
+
+5. Functions:
+Functions are blocks of reusable code that can take inputs (parameters) and return outputs (values).
+
+    1. Function Declaration:
+
+    2. Function Expression:
+    You can assign a function to a variable. These are called anonymous functions (since they don't have a name).
+
+    3. Arrow Functions (ES6):
+    Arrow functions provide a shorter syntax and are commonly used in modern JavaScript.
+
+
+6. Scope and Closures:
+Scope defines the accessibility of variables and functions in different parts of your code. JavaScript has Global Scope, Function Scope, and Block Scope (with let and const).
+
+    6.1. Scope:
+
+        a. Global Scope: Variables declared outside any function are in the global scope.
+
+        b. Function Scope: Variables declared inside a function are only accessible within that function.
+
+        c. Block Scope: Variables declared with let or const inside {} are accessible only within that block.
+
+    6.2 Closures
+        A closure is a function that retains access to its lexical scope, even when the function is executed outside that scope.
+
+
+7. Arrays and Array Methods:
+Arrays store ordered collections of data. You can use square brackets to create an array.
+
+8. Objects:
+Objects are collections of key-value pairs. They can store complex data and even functions.
